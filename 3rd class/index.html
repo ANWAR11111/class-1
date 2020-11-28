@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Table border="1px">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Age</th>
+            <th>   </th>
+            <th></th>
+            <th></th>
+            <th>Gender</th>
+        </tr>
+        <tr>
+            <td>Muzammil</td>
+            <td>23</td>
+            <td>   </td>
+        </tr>
+        <tr>
+            <td>Ali</td>
+            <td>20</td>
+            <td>   </td>
+        </tr>
+
+
+        <tr>
+            <th></th>
+            <th>ABC</th>
+            <th>BBC</th>
+            <th>CNN</th>
+
+        </tr>
+        <tr>
+            <th>6pm-7pm</th>
+            <td rowspan="2">Movies</td>
+            <td>Comedy</td>
+            <td>News</td>
+        </tr>
+        <tr>
+            <th>7pm-8pm</th>
+            <td>Sport</td>
+            <td>Current Affairs</td>
+        </tr>
+    </Table>
+
+<!-- form jb chota hota h to get lagaty hn agr bara ho to post -->
+
+
+    <form action="http://www.example.com/subscribe.php"></form>
+    <p>Username:
+        <input type="text" name="username" size="15" maxlength="20"></p>
+    <p>password:
+        <input type="password" name="username" size="15" maxlength="20"></p>
+    <p>number:
+        <input type="number" name="username" size="15" maxlength="20"></p>
+        <textarea name="comments" id="" cols="30" rows="4"></textarea>
+    <p>
+        Gender:
+        male:<input type="radio" name="Gender" value="male">
+        female:<input type="radio" name="Gender" value="female">
+        Other:<input type="radio" name="Gender" value="others">
+    </p>
+    <p>
+        select more than one option <br>
+        apple:<input type="checkbox" value="apple" name="Answer" id="">
+        orange:<input type="checkbox" value="orange" name="Answer" id="">
+        orange:<input type="checkbox" value="orange" name="Answer" id="">
+        banana:<input type="checkbox" value="banana" name="Answer" id="">
+        mango:<input type="checkbox" value="mango" name="Answer" id="">
+        
+    </p>
+    <p>Select your country <br>
+        <select name="Country" id="">
+            <option selected value="Pakistan">Pakistan</option>
+            <option value="india">india</option>
+            <option value="USA">USA</option>
+            <option value="Pakistan">Pakistan</option>
+        </select>
+        <p>upload your file <br>
+            <input type="file">
+
+        </p>
+        <p>Submit your response <br>
+        <input type="submit" value="submit">
+        <button type="submit">Submit</button>
+        </p>
+
+    </p>
+
+</body>
+</html>
