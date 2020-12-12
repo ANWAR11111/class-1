@@ -1,0 +1,26 @@
+p#change ::first-letter{
+    font-size: 300px;
+
+}
+    /* background-color: chartreuse;
+    color: blueviolet;
+    text-shadow: -1px 1px 3px; */
+    /* font-size: 100px; */
+
+a.format:link{
+    color: cyan;
+    text-decoration: none;
+}
+a.format:visited{
+    color: darkorange;
+}
+input:hover{
+    background-color: deepskyblue;
+}
+input:focus{
+    background-color: gold;
+}
+
+button:active{
+    background-color: hotpink;
+}
