@@ -1,0 +1,16 @@
+.cart{
+    height: 200px;
+    width: 300px;
+    background-color: orange;
+    margin-left: 50px;
+}
+.main{
+    display: flex;
+}
+
+
+
+
+.blue{
+    color: orangered;
+}

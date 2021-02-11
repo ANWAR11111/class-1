@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-auth.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+          apiKey: "AIzaSyAEOqdtZE4ryjtJc2SwcfoJ5M9PdqcdY2M",
+          authDomain: "facebook-auth-faeae.firebaseapp.com",
+          projectId: "facebook-auth-faeae",
+          storageBucket: "facebook-auth-faeae.appspot.com",
+          messagingSenderId: "378219391461",
+          appId: "1:378219391461:web:401d434ac6b1c66b17670c",
+          measurementId: "G-NS564XYFRV"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+      </script>
+</head>
+<body>
+    <button onclick="fblogin()">Facebook login</button>
+</body>
+<script src="app.js"></script>
+</html>

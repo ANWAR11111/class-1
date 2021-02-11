@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-auth.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+     <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-analytics.js"></script>
+
+     <script>
+       // Your web app's Firebase configuration
+       // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+       var firebaseConfig = {
+         apiKey: "AIzaSyCu-YaApzZHaVWn39stxxbsLf_Cs0syc2Q",
+         authDomain: "authenti-c5cc4.firebaseapp.com",
+         projectId: "authenti-c5cc4",
+         storageBucket: "authenti-c5cc4.appspot.com",
+         messagingSenderId: "322181620301",
+         appId: "1:322181620301:web:769a353dcdc01d4700f204",
+         measurementId: "G-1QWTRKSNXB"
+       };
+       // Initialize Firebase
+       firebase.initializeApp(firebaseConfig);
+       firebase.analytics();
+     </script>
+</head>
+<body>
+  
+        <input placeholder="email" type="email"  id="email"><br>
+        <input placeholder="pass" type="password" id="password">
+        <button onclick="sign()">Sign-Up</button>
+  
+
+
+
+
+        <input placeholder="email" type="email"  id="login-email"><br>
+        <input placeholder="pass" type="password" id="login-password">
+        <button onclick="login()">Sign-In</button>
+
+</body>
+<script src="app.js"></script>
+</html>
